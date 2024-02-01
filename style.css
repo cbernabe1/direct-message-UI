@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    padding: 5px 20px;
+    background-color: beige;
+    border-radius: 15px;
+}
+
+.header{
+    text-align: center;
+    border-bottom: 1px solid black;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.header h1{
+    font-size: 1.5rem;
+}
+
+.header p{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.messages{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left-message-container{
+    display: flex;
+    justify-content: space-between;
+}
+.left-message-container p{
+    font-size: 0.7rem;
+}
+.message{
+    background-color: rgb(96, 131, 226);
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.left-message{
+    margin: 20px 0;
+}
+
+.left-message p{
+    margin-bottom: 5px;
+}
+
+.right-message{
+    background-color: gray;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.input-message{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+input{
+    width: 350px;
+    height: 40px;
+    padding-left: 5px;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+svg{
+    width: 30px;
+    height: 30px;
+}
